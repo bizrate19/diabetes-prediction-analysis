@@ -1,0 +1,83 @@
+{
+  "project": "Diabetes Data Preprocessing",
+  "timestamp": "2025-11-03T16:30:15.554072",
+  "original_shape": {
+    "rows": 768,
+    "columns": 9
+  },
+  "processed_shape": {
+    "rows": 768,
+    "columns": 15
+  },
+  "features_original": 9,
+  "features_processed": 15,
+  "missing_values_handled": 652,
+  "class_distribution": {
+    "non_diabetic": 500,
+    "diabetic": 268
+  },
+  "imbalance_ratio": 1.8656716417910448,
+  "preprocessing_steps": [
+    "Zero value identification and imputation",
+    "Outlier detection using IQR",
+    "Feature engineering (age groups, BMI categories, glucose levels)",
+    "Categorical encoding",
+    "Feature scaling using StandardScaler",
+    "Train-test split with stratification"
+  ],
+  "data_quality_issues_resolved": {
+    "biological_impossibilities_handled": true,
+    "missing_values_imputed": true,
+    "outliers_identified": true,
+    "features_engineered": true,
+    "data_scaled": true
+  },
+  "missing_values_report": {
+    "Glucose": {
+      "zero_count": 5,
+      "percentage": 0.6510416666666667
+    },
+    "BloodPressure": {
+      "zero_count": 35,
+      "percentage": 4.557291666666666
+    },
+    "SkinThickness": {
+      "zero_count": 227,
+      "percentage": 29.557291666666668
+    },
+    "Insulin": {
+      "zero_count": 374,
+      "percentage": 48.69791666666667
+    },
+    "BMI": {
+      "zero_count": 11,
+      "percentage": 1.4322916666666665
+    }
+  },
+  "feature_categories": {
+    "numerical_features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age",
+      "Age_Group_encoded",
+      "BMI_Category_encoded",
+      "Glucose_Level_encoded"
+    ],
+    "categorical_features": [
+      "Age_Group",
+      "BMI_Category",
+      "Glucose_Level"
+    ],
+    "encoded_features": [
+      "Age_Group_encoded",
+      "BMI_Category_encoded",
+      "Glucose_Level_encoded"
+    ],
+    "target_variable": "Outcome"
+  }
+}

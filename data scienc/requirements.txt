@@ -1,0 +1,21 @@
+﻿
+**3. data/dictionary.md**
+```markdown
+# Data Dictionary
+
+## Processed Diabetes Dataset
+
+| Feature Name | Description | Data Type | Range | Notes |
+|-------------|-------------|-----------|-------|-------|
+| Pregnancies | Number of times pregnant | Integer | 0-17 | Original feature |
+| Glucose | Plasma glucose concentration | Float | 0-199 mg/dL | Imputed missing values |
+| BloodPressure | Diastolic blood pressure | Float | 0-122 mm Hg | Imputed missing values |
+| SkinThickness | Triceps skin fold thickness | Float | 0-99 mm | Imputed missing values |
+| Insulin | 2-Hour serum insulin | Float | 0-846 mu U/ml | Imputed missing values |
+| BMI | Body mass index | Float | 0-67.1 kg/m² | Imputed missing values |
+| DiabetesPedigreeFunction | Diabetes pedigree function | Float | 0.078-2.42 | Genetic risk score |
+| Age | Age in years | Integer | 21-81 | Original feature |
+| Age_Group | Categorical age groups | String | Young/Middle/Senior | Engineered feature |
+| BMI_Category | BMI classification | String | Under/Normal/Over/Obese | Engineered feature |
+| Glucose_Level | Glucose categories | String | Normal/Prediabetic/Diabetic | Engineered feature |
+| Outcome | Diabetes diagnosis | Integer | 0/1 | Target variable |

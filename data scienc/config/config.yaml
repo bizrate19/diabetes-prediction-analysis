@@ -1,0 +1,5 @@
+﻿paths:
+  raw_data: "data/raw/diabetes.csv"
+  processed_dir: "data/processed"
+params:
+  random_seed: 42

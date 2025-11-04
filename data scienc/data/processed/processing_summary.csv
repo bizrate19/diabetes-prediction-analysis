@@ -1,0 +1,10 @@
+Metric,Value
+Original Dataset Rows,768
+Original Dataset Columns,9
+Processed Dataset Rows,768
+Processed Dataset Columns,15
+Missing Values Handled,652
+Non-diabetic Samples,500
+Diabetic Samples,268
+Imbalance Ratio,1.87:1
+New Features Created,6
